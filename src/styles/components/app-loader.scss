@@ -1,0 +1,29 @@
+.app-loader-container {
+  color: $color-dark-purple;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-loader {
+  color: $color-dark-purple;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 2s;
+  animation-name: roll;
+  animation-iteration-count: infinite;
+  animation-direction: normal;
+  animation-timing-function: linear;
+}
+
+@keyframes roll {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

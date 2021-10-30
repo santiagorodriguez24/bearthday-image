@@ -1,0 +1,76 @@
+.public-footer {
+  background: $color-light-blue;
+  background: linear-gradient(
+    90deg,
+    rgba($color-light-blue, 1) 0%,
+    rgba($color-blue, 1) 50%,
+    rgba($color-dark-blue, 1) 100%
+  );
+  color: white;
+  width: 100%;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: flex-end;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 0.5vw);
+
+  .footer-col {
+    @extend .basic-col;
+    padding: 1rem;
+
+    &.links {
+      padding-right: 0px;
+
+      .footer-link {
+        display: block;
+        width: 100%;
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 0.2rem 0rem;
+      }
+    }
+
+    .legal-text {
+      @extend .basic-row;
+      font-size: 1rem;
+      font-weight: 400;
+      text-align: center;
+    }
+
+    .footer-icons-row {
+      @extend .basic-row;
+      justify-content: flex-end;
+
+      @include md {
+        justify-content: center;
+      }
+
+      .footer-icon-container {
+        width: auto;
+        background-color: transparent;
+        color: $color-white;
+        margin: 0rem 0.2rem;
+        padding: 0.3rem;
+
+        a {
+          color: inherit;
+          text-decoration: none;
+        }
+
+        &:hover {
+          background-color: transparent;
+          color: $color-dark-purple;
+        }
+
+        .footer-icon {
+          font-size: 1.5rem;
+          background-color: transparent;
+        }
+      }
+    }
+  }
+}

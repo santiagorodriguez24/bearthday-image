@@ -1,0 +1,13 @@
+.photo-gallery-description {
+  @extend .basic-row;
+  color: $color-blue;
+  font-weight: 500;
+  padding: 0px 10px;
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  text-align: center;
+
+  @include sm {
+    width: 100%;
+  }
+}

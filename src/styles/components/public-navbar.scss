@@ -1,0 +1,29 @@
+.navbar-app {
+  background: $color-light-blue;
+  background: linear-gradient(
+    90deg,
+    rgba($color-light-blue, 1) 0%,
+    rgba($color-blue, 1) 50%,
+    rgba($color-dark-blue, 1) 100%
+  );
+}
+
+.navbar-brand {
+  margin-right: 0px !important;
+  margin-left: 20px;
+  height: 80px;
+  max-width: 80%;
+}
+
+.navbar-logo {
+  border-style: none;
+  vertical-align: top;
+  max-height: 80px;
+  max-width: 80%;
+  width: auto;
+  height: 100%;
+
+  &.link {
+    cursor: pointer;
+  }
+}

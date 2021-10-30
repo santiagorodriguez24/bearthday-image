@@ -1,24 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import 'config/DayJs/config-dayjs';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import './styles/app.scss';
+import * as routes from 'routes/routes';
+
+import Home from 'routes/home/Home';
+import PhotoGallery from 'routes/photo-gallery/PhotoGallery';
+import NotFoundPage from 'routes/not-found/NotFound';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Switch>
+        <Route exact path={routes.ROUTE_HOME} component={Home} />
+        <Route
+          exact
+          path={routes.ROUTE_PHOTO_GALLERY}
+          component={PhotoGallery}
+        />
+         <Route render={(props) => <NotFoundPage {...props} />} /> 
+      </Switch>
+    </Router>
   );
 }
 

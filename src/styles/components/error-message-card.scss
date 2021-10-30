@@ -1,0 +1,50 @@
+.error-message-card {
+  align-self: center;
+  border: 1px solid $color-purple;
+  -webkit-box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.5);
+  box-shadow: 4px 4px 6px -2px rgba(0, 0, 0, 0.5);
+  padding: 0px;
+
+  .card-header {
+    @extend .basic-row;
+    padding: 1rem 1rem;
+    color: $color-white;
+    background-color: $color-purple;
+  }
+
+  .card-body {
+    padding: 2rem 1rem;
+
+    .error-message-card-img {
+      width: 100%;
+      height: auto;
+      color: $color-purple;
+    }
+
+    .error-message-card-text {
+      display: inline-block;
+    }
+
+    .card-text {
+      font-weight: 500;
+    }
+  }
+
+  .card-footer {
+    @extend .basic-row;
+    padding: 1rem 1rem;
+    background-color: $color-white;
+    display: flex;
+    justify-content: space-between;
+
+    .error-message-card-button-container {
+      padding: 1rem;
+    }
+
+    .error-message-card-button {
+      @extend .app-button;
+      width: 100%;
+    }
+  }
+}

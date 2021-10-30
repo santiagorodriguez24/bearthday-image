@@ -1,0 +1,34 @@
+// Fonts
+// Montserrat & Roboto
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+// Libraries
+@import 'bootstrap/scss/bootstrap.scss';
+
+// Colors:
+$color-dark-purple: #5500ff;
+$color-light-blue: #00b9d2;
+$color-blue: #025185;
+$color-rare-white: #f4fff9;
+$color-gray: #c2c8d1;
+$color-dark-blue: #000e2e;
+$color-purple: #a000ff;
+$color-white: #ffffff;
+$color-black: #000000;
+
+// General Config and Classes
+@import 'general/layout.scss';
+
+//Pages
+@import 'pages/home.scss';
+@import 'pages/photo-gallery.scss';
+@import 'pages/not-found.scss';
+
+// Components
+@import 'components/main-layout.scss';
+@import 'components/public-navbar.scss';
+@import 'components/public-footer.scss';
+@import 'components/app-button.scss';
+@import 'components/app-loader.scss';
+@import 'components/error-message-card.scss';
+@import 'components/form-components.scss';
