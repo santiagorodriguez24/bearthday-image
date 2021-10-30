@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/bearthday-image/static/css/main.743f2b40.chunk.css",
+    "main.js": "/bearthday-image/static/js/main.1b5ef8fd.chunk.js",
+    "main.js.map": "/bearthday-image/static/js/main.1b5ef8fd.chunk.js.map",
+    "runtime-main.js": "/bearthday-image/static/js/runtime-main.8600e681.js",
+    "runtime-main.js.map": "/bearthday-image/static/js/runtime-main.8600e681.js.map",
+    "static/css/2.9765784d.chunk.css": "/bearthday-image/static/css/2.9765784d.chunk.css",
+    "static/js/2.fefea857.chunk.js": "/bearthday-image/static/js/2.fefea857.chunk.js",
+    "static/js/2.fefea857.chunk.js.map": "/bearthday-image/static/js/2.fefea857.chunk.js.map",
+    "static/js/3.ea2030b7.chunk.js": "/bearthday-image/static/js/3.ea2030b7.chunk.js",
+    "static/js/3.ea2030b7.chunk.js.map": "/bearthday-image/static/js/3.ea2030b7.chunk.js.map",
+    "index.html": "/bearthday-image/index.html",
+    "static/css/2.9765784d.chunk.css.map": "/bearthday-image/static/css/2.9765784d.chunk.css.map",
+    "static/css/main.743f2b40.chunk.css.map": "/bearthday-image/static/css/main.743f2b40.chunk.css.map",
+    "static/js/2.fefea857.chunk.js.LICENSE.txt": "/bearthday-image/static/js/2.fefea857.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/bearthday-image/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8600e681.js",
+    "static/css/2.9765784d.chunk.css",
+    "static/js/2.fefea857.chunk.js",
+    "static/css/main.743f2b40.chunk.css",
+    "static/js/main.1b5ef8fd.chunk.js"
+  ]
+}
